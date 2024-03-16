@@ -178,7 +178,7 @@ const Gameboard = () => {
                                 {gameOver ? 'New Game' : 'Throw Dices'}
                             </Text>
                         </Pressable>
-                        <Text style={[styles.gameboard, styles.gamevalue]}>Total: {getBonus ? (totalPoints + BONUS_POINTS) : totalPoints}</Text>
+                        <Text style={[styles.gameboard]}>Total: {getBonus ? (totalPoints + BONUS_POINTS) : totalPoints}</Text>
                         <Text style={styles.gameboard}>{checkBonus()}</Text>
                     </Col>
                 </Row>
